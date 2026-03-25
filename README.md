@@ -33,3 +33,7 @@ Output classes: `10`
 Here are the training curves showing the model's loss decreasing and accuracy improving over 20 epochs:
 
 ![Training Curves](scripts/figure/training_curves.png)
+
+Here is the testing prediction visualization:
+
+![Testing Figure](scripts/figure/figure_1.png)

@@ -32,4 +32,4 @@ Output classes: `10`
 ## Result
 Here are the training curves showing the model's loss decreasing and accuracy improving over 20 epochs:
 
-![Training Curves](training_curves.png)
+![Training Curves](scripts/figure/training_curves.png)

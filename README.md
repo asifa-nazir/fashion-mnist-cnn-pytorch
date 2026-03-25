@@ -9,8 +9,6 @@ This repository serves as a foundational demonstration of core deep learning wor
 * **Detailed Evaluation:** Calculates overall test accuracy and **per-class accuracy**.
 * **Visualization:** Automatically generates side-by-side comparisons of true vs. predicted labels.
 
-
-
 ## Model Summary
 The CNN consists of:
 - 3 convolutional layers
@@ -21,16 +19,17 @@ The CNN consists of:
 Input image size: `1 x 28 x 28`  
 Output classes: `10`
 
-
-
 ## Repository Structure
 ```text
-├── data/                   # Dataset downloads here automatically
-├── models/                 # Saved .pth weights and output graphs
-└── scripts/
-    ├── model.py            # The FashionCNN PyTorch architecture
-    ├── train.py            # Training loop and loss visualization
-    └── test.py             # Evaluation and prediction visualization
+|-- data/                   # Dataset downloads here automatically
+|-- models/                 # Saved .pth weights and output graphs
+`-- scripts/
+    |-- model.py            # The FashionCNN PyTorch architecture
+    |-- train.py            # Training loop and loss visualization
+    `-- test.py             # Evaluation and prediction visualization
+```
 
-## Result 
+## Result
 Here are the training curves showing the model's loss decreasing and accuracy improving over 20 epochs:
+
+![Training Curves](training_curves.png)

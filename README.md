@@ -24,6 +24,9 @@ Output classes: `10`
 |-- data/                   # Dataset downloads here automatically
 |-- models/                 # Saved .pth weights and output graphs
 `-- scripts/
+    |-- figure/
+    |   |-- training_curves.png  # Training curve image used in README
+    |   `-- figure_1.png         # Testing prediction visualization image
     |-- model.py            # The FashionCNN PyTorch architecture
     |-- train.py            # Training loop and loss visualization
     `-- test.py             # Evaluation and prediction visualization

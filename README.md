@@ -29,6 +29,24 @@ Output classes: `10`
     `-- test.py             # Evaluation and prediction visualization
 ```
 
+## How to Run
+
+1. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+2. Train the model:
+```bash
+cd scripts
+python train.py
+```
+
+3. Test the model:
+```bash
+python test.py
+```
+
 ## Result
 Here are the training curves showing the model's loss decreasing and accuracy improving over 20 epochs:
 
